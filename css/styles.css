@@ -15,30 +15,7 @@ img	{
 	height: auto;
 }
 
-/* BUTTON	*/
-.button	{
-	display: inline-block;
-	padding: 13px 20px;
-border-radius: 10px;
-	font-size: 16px;
-	line-height: normal;
-	text-decoration: none;
-	text-align: center;
-	cursor: pointer;
-}
 
-.button-primary	{
-	background-color:#7296EC;
-	color: #fff;
-}
-
-.button-primary:hover	{
-	opacity: 0.08;
-}
-
-.button-primary:active	{
-	opacity: 0.06;
-}
 
 /* CONTAINER */
 .container	{
@@ -95,8 +72,11 @@ background-color: #fff;
 	list-style: none;
 }
 
-.currency-rates-item:not(:last-child)
+.currency-rates-item:not(:last-child){
 margin-right: 25px;
+}
+
+
 .currency-rates-type {
 	color: #2959ce;
 	margin-right: 25px;
@@ -129,7 +109,30 @@ color: #A6A6A6;
 	background-color: #fff;
 	color: #000;
 }
-.button {
+
+/* BUTTON	*/
+.button	{
+	display: inline-block;
+	padding: 13px 20px;
+border-radius: 10px;
+	font-size: 16px;
+	line-height: normal;
+	font-weight: 500;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+
 }
-.button-primary {
+
+.button-primary	{
+	background-color:#7296EC;
+	color: #fff;
+}
+
+.button-primary:hover	{
+	opacity: 0.8;
+}
+
+.button-primary:active	{
+	opacity: 0.6;
 }
