@@ -38,6 +38,7 @@ img	{
 
 /* SITE-HEADER-TOP */
 .site-header-top {
+	margin-bottom: 10px;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	background-color: #f6f6f6;
@@ -157,4 +158,50 @@ border-radius: 10px;
 
 .button-primary:active	{
 	opacity: 0.6;
+}
+
+/* SITENAV */
+.sitenav {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #d1d1d1;
+	margin-bottom: 40px;
+	font-size: 18px;
+	line-height: normal;
+	font-weight: 500;
+}
+.sitenav-list {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.sitenav-item	{
+margin-top: 4px;
+margin-bottom: 4px;
+}
+
+.sitenav-item:not(:last-child) {
+	margin-right: 34px;
+
+}
+.sitenav-link {
+	display: block;
+	text-decoration: none;
+	color: #7f7f7f;
+}
+
+.sitenav-link:hover	{
+	color: #7229ec;
+}
+
+.sitenav-link:active	{
+	opacity: 0.6
+}
+
+.site-header-banner-img	{
+	display: flex;
 }
